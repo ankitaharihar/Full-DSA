@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Active Java File",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "${fileBasenameNoExtension}",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
