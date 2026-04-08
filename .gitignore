@@ -1,0 +1,5 @@
+# Root folder mein jao pehle
+cd '../..'
+
+# .gitignore file banao
+echo "*.class" > .gitignore
