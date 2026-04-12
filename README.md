@@ -1,7 +1,7 @@
 # Java DSA Roadmap Repository
 
-This repository follows a DSA-first roadmap using Java.
-Goal: Strong problem-solving, interview preparation, and consistent coding practice.
+This repository is organized as a Java-first DSA workspace for structured learning, revision, and problem-solving practice.
+The current implementation lives inside `DSA-Java/`, with topic-wise source folders under `src/`.
 
 ## Why Java for DSA?
 
@@ -12,6 +12,20 @@ Goal: Strong problem-solving, interview preparation, and consistent coding pract
 - Widely used in product-based company interviews
 
 ## Java DSA Quick Start
+
+Compile all current examples from the `DSA-Java` folder:
+
+```powershell
+javac src\basics\*.java src\arrays\*.java src\sorting\*.java
+```
+
+Run any class with its package name, for example:
+
+```powershell
+java -cp src sorting.BubbleSort
+```
+
+Minimal Java example:
 
 ```java
 public class Main {
@@ -95,27 +109,42 @@ public class Main {
 - CodeStudio / Naukri
 - Codeforces (for speed and contests)
 
-## Workspace Structure (Recommended for Java DSA)
+## Current Workspace Structure
 
 ```text
 Full-DSA/
-|-- 00-Java-Basics/
-|-- 01-Arrays/
-|-- 02-Strings/
-|-- 03-Searching-Sorting/
-|-- 04-Hashing/
-|-- 05-LinkedList/
-|-- 06-Stack-Queue/
-|-- 07-Recursion-Backtracking/
-|-- 08-Trees-BST/
-|-- 09-Heap-PriorityQueue/
-|-- 10-Graphs/
-|-- 11-Dynamic-Programming/
-|-- 12-Advanced-DSA/
-|-- 13-Interview-Prep/
-|-- 14-Contests/
+|-- DSA-Java/
+|   `-- src/
+|       |-- basics/
+|       |   |-- PrintArray.java
+|       |   |-- FindMin.java
+|       |   `-- FindMax.java
+|       |-- arrays/
+|       |   |-- LinearSearch.java
+|       |   |-- ReverseArray.java
+|       |   `-- Duplicates.java
+|       |-- sorting/
+|       |   |-- BubbleSort.java
+|       |   `-- SelectionSort.java
+|       `-- future/
+|           |-- linkedlist/
+|           |-- stack/
+|           `-- tree/
 `-- README.md
 ```
+
+## Topic Progress
+
+- `basics`: basic array traversal and min/max operations
+- `arrays`: linear search, reverse array, duplicate detection
+- `sorting`: bubble sort and selection sort
+- `future`: placeholders for linked list, stack, and tree implementations
+
+## Next Expansion Plan
+
+- Add `strings`, `binarysearch`, and `hashing` packages
+- Add `linkedlist`, `stack`, and `tree` implementations under `future/`
+- Add one driver or notes file per topic with common patterns and edge cases
 
 ## Final Tips
 
