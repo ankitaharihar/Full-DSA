@@ -1,7 +1,7 @@
 # Java DSA Roadmap Repository
 
 This repository is organized as a Java-first DSA workspace for structured learning, revision, and problem-solving practice.
-The current implementation lives inside `DSA-Java/`, with topic-wise source folders under `src/`.
+The current implementation lives directly under the top-level `src/` folder with topic-wise packages.
 
 ## Why Java for DSA?
 
@@ -13,7 +13,7 @@ The current implementation lives inside `DSA-Java/`, with topic-wise source fold
 
 ## Java DSA Quick Start
 
-Compile all current examples from the `DSA-Java` folder:
+Compile all current examples from the repository root:
 
 ```powershell
 javac src\basics\*.java src\arrays\*.java src\sorting\*.java
@@ -113,23 +113,22 @@ public class Main {
 
 ```text
 Full-DSA/
-|-- DSA-Java/
-|   `-- src/
-|       |-- basics/
-|       |   |-- PrintArray.java
-|       |   |-- FindMin.java
-|       |   `-- FindMax.java
-|       |-- arrays/
-|       |   |-- LinearSearch.java
-|       |   |-- ReverseArray.java
-|       |   `-- Duplicates.java
-|       |-- sorting/
-|       |   |-- BubbleSort.java
-|       |   `-- SelectionSort.java
-|       `-- future/
-|           |-- linkedlist/
-|           |-- stack/
-|           `-- tree/
+|-- src/
+|   |-- basics/
+|   |   |-- PrintArray.java
+|   |   |-- FindMin.java
+|   |   `-- FindMax.java
+|   |-- arrays/
+|   |   |-- LinearSearch.java
+|   |   |-- ReverseArray.java
+|   |   `-- Duplicates.java
+|   |-- sorting/
+|   |   |-- BubbleSort.java
+|   |   `-- SelectionSort.java
+|   `-- future/
+|       |-- linkedlist/
+|       |-- stack/
+|       `-- tree/
 `-- README.md
 ```
 
@@ -143,7 +142,7 @@ Full-DSA/
 ## Next Expansion Plan
 
 - Add `strings`, `binarysearch`, and `hashing` packages
-- Add `linkedlist`, `stack`, and `tree` implementations under `future/`
+- Add `linkedlist`, `stack`, and `tree` implementations under `src/future/`
 - Add one driver or notes file per topic with common patterns and edge cases
 
 ## Final Tips

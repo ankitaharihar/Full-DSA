@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff70cf5-0eb8-462c-bb59-da6bbf2be69a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-Setup/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Beginner/06-Arrays-Strings/FindMaxNum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Beginner/06-Arrays-Strings/ReverseArr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Beginner/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-Intermediate/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-Advanced/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-Projects/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Interview-Prep/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Resources/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Progress-Tracker/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-Templates/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="3ff70cf5-0eb8-462c-bb59-da6bbf2be69a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +42,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -86,7 +70,7 @@
       <updated>1775697874597</updated>
       <workItem from="1775697911181" duration="1169000" />
       <workItem from="1775981386902" duration="125000" />
-      <workItem from="1775981529437" duration="325000" />
+      <workItem from="1775981529437" duration="663000" />
     </task>
     <servers />
   </component>
