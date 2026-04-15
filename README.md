@@ -16,7 +16,7 @@ The current implementation lives directly under the top-level `src/` folder with
 Compile all current examples from the repository root:
 
 ```powershell
-javac src\basics\*.java src\arrays\*.java src\sorting\*.java
+javac src\temp\*.java src\arrays\*.java src\sorting\*.java
 ```
 
 Run any class with its package name, for example:
@@ -42,9 +42,9 @@ public class Main {
 - Input/output (Scanner, BufferedReader)
 - Data types and operators
 - Conditions and loops
-- Functions and recursion basics
-- Arrays and strings basics
-- Time and space complexity basics
+- Functions and recursion temp
+- Arrays and strings temp
+- Time and space complexity temp
 
 ### Phase 1: Beginner DSA
 
@@ -61,7 +61,7 @@ public class Main {
 - Recursion and backtracking
 - Bit manipulation
 - Sliding window
-- Greedy basics
+- Greedy temp
 
 ### Phase 3: Intermediate DSA
 
@@ -96,7 +96,7 @@ public class Main {
 
 ## Suggested Weekly Plan
 
-- Week 1-2: Java basics + arrays + strings
+- Week 1-2: Java temp + arrays + strings
 - Week 3-4: Linked list, stack, queue, recursion
 - Week 5-6: Trees, BST, heap, hashing
 - Week 7-8: Graphs + dynamic programming
@@ -114,7 +114,7 @@ public class Main {
 ```text
 Full-DSA/
 |-- src/
-|   |-- basics/
+|   |-- temp/
 |   |   |-- PrintArray.java
 |   |   |-- FindMin.java
 |   |   `-- FindMax.java
@@ -134,7 +134,7 @@ Full-DSA/
 
 ## Topic Progress
 
-- `basics`: basic array traversal and min/max operations
+- `temp`: basic array traversal and min/max operations
 - `arrays`: linear search, reverse array, duplicate detection
 - `sorting`: bubble sort and selection sort
 - `future`: placeholders for linked list, stack, and tree implementations
