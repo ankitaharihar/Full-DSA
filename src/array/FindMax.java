@@ -1,3 +1,4 @@
+package array;
 public class FindMax {
     public static void main(String[] args) {
        int[] arr = {10,45,67,200,4555,9000};
